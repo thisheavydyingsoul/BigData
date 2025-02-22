@@ -1,0 +1,15 @@
+C:\Users\79533\Desktop\Big data\Lab1\bin\Debug\net6.0\Lab1.exe
+C:\Users\79533\Desktop\Big data\Lab1\bin\Debug\net6.0\Lab1.deps.json
+C:\Users\79533\Desktop\Big data\Lab1\bin\Debug\net6.0\Lab1.runtimeconfig.json
+C:\Users\79533\Desktop\Big data\Lab1\bin\Debug\net6.0\Lab1.dll
+C:\Users\79533\Desktop\Big data\Lab1\bin\Debug\net6.0\Lab1.pdb
+C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.csproj.AssemblyReference.cache
+C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfoInputs.cache
+C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfo.cs
+C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.dll
+C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\refint\Lab1.dll
+C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.pdb
+C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.genruntimeconfig.cache
+C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\ref\Lab1.dll
