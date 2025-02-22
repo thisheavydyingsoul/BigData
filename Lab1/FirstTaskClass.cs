@@ -14,6 +14,7 @@ public class FirstTaskClass
         
         Console.WriteLine("P:");
         FloatMatrix PMatrix = MatrixUtilities.GetStochasticTransitionMatrix(taskGraph);
+        PMatrix = PMatrix - MatrixUtilities.GenerateIdentityMatrix(PMatrix.GetElements().Length);
         MatrixUtilities.PrintMatrix(PMatrix);
         
         Console.WriteLine("\nPr = 0\n");
@@ -22,13 +23,12 @@ public class FirstTaskClass
             Console.Write($"r{i + 1} + ");
         }
         Console.Write($"r{taskGraph.GetElements().Length} = 1");
-
+        
         var bElements = new float[taskGraph.GetElements().Length][];
         for (int i = 0; i < taskGraph.GetElements().Length; i++)
         {
             bElements[i] = new float[1];
         }
-        bElements[0][0] = 1;
         FloatMatrix bMatrix = new FloatMatrix(bElements);
         Console.WriteLine("\nr:");
         MatrixUtilities.PrintMatrix(bMatrix);
@@ -110,63 +110,37 @@ public class FirstTaskClass
         var bElements = bMatrix.GetElements();
         MatrixUtilities.AddColumn(matrix, bElements);
         var elements = matrix.GetElements();
-        Console.WriteLine("\nMatrix Pr before");
-        MatrixUtilities.PrintMatrix(matrix);
-        MatrixUtilities.SwapColumns(matrix, 0, elements[0].Length - 1);
-        int width = elements.Length;
-        
-        Console.WriteLine("\nMatrix Pr after");
-        MatrixUtilities.PrintMatrix(matrix);
-        
-        for (int j = 0; j < width; j++)
+        int maxWidth = elements[0].Length;
+        for (int width = 0; width < maxWidth; width++)
         {
-            if (elements[j][j] == 0)
+            elements[0][width] = 1;
+        }
+        
+        MatrixUtilities.PrintMatrix(matrix);
+        for (int height = 0; height < elements.Length; height++)
+        {
+            float multiplier = 1f ;
+            float number = (float)(object)elements[height][height];
+            Console.WriteLine((number % 1 == 0 
+                              ? number.ToString("0") 
+                              : number.ToString("0.###"))
+                          + " " + height);
+            elements[height][height] = 1;
+            
+            for(int i = height + 1; i < elements.Length; i++)
+                elements[i][height] *= multiplier;
+            
+            for (int i = height + 1; i < elements.Length; i++)
             {
-                bool found = false;
-                for (int k = j + 1; k < width; k++)
-                {
-                    if (elements[k][j] == 0)
-                        continue;
-                    MatrixUtilities.SwapRows(matrix, j, k);
-                    found = true;
-                    break;
-                }
-
-                if (!found)
-                {
-                    Console.WriteLine($"Для строки {j} не было найдено ссылок!");
-                    MatrixUtilities.RemoveRow(matrix, j);
-                    MatrixUtilities.RemoveRow(bMatrix, j);
-                    j--;
-                    continue;
-                }
-            }
-            
-            Console.WriteLine("\nMatrix Pr after swapping");
-            MatrixUtilities.PrintMatrix(matrix);
-            if(elements[j][j] == 1)
-                continue;
-            
-            float multiplier = 1 / elements[j][j];
-
-            elements[j][j] = 1;
-            
-            for(int i = j + 1; i < elements.Length; i++)
-                elements[i][j] *= multiplier;
-            
-            bElements[j][0] *= multiplier;
-            
-            for (int i = j + 1; i < elements.Length; i++)
-            {
-                if(elements[i][j] == 0)
+                if(elements[i][height] == 0)
                     continue;
                 
-                for(int k = 0; k < elements.Length; k++)
+                for(int k = 0; k < maxWidth; k++)
                 {
-                    elements[i][k] -= elements[i][k] * elements[j][k];
+                    elements[i][k] -= elements[i][k] * elements[height][k];
                 }
                 
-                bElements[i][0] -= bElements[i][0] * bElements[j][0];
+                bElements[i][0] -= bElements[i][0] * bElements[height][0];
             }
         }
     }

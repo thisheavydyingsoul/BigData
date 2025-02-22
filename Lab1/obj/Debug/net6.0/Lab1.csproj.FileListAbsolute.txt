@@ -1,15 +1,30 @@
-C:\Users\79533\Desktop\Big data\Lab1\bin\Debug\net6.0\Lab1.exe
-C:\Users\79533\Desktop\Big data\Lab1\bin\Debug\net6.0\Lab1.deps.json
-C:\Users\79533\Desktop\Big data\Lab1\bin\Debug\net6.0\Lab1.runtimeconfig.json
-C:\Users\79533\Desktop\Big data\Lab1\bin\Debug\net6.0\Lab1.dll
-C:\Users\79533\Desktop\Big data\Lab1\bin\Debug\net6.0\Lab1.pdb
-C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.csproj.AssemblyReference.cache
-C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfoInputs.cache
-C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.AssemblyInfo.cs
-C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.csproj.CoreCompileInputs.cache
-C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.dll
-C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\refint\Lab1.dll
-C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.pdb
-C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\Lab1.genruntimeconfig.cache
-C:\Users\79533\Desktop\Big data\Lab1\obj\Debug\net6.0\ref\Lab1.dll
+C:/Users/79533/Desktop/Big data/Lab1/bin/Debug/net6.0/Lab1.exe
+C:/Users/79533/Desktop/Big data/Lab1/bin/Debug/net6.0/Lab1.deps.json
+C:/Users/79533/Desktop/Big data/Lab1/bin/Debug/net6.0/Lab1.runtimeconfig.json
+C:/Users/79533/Desktop/Big data/Lab1/bin/Debug/net6.0/Lab1.dll
+C:/Users/79533/Desktop/Big data/Lab1/bin/Debug/net6.0/Lab1.pdb
+C:/Users/79533/Desktop/Big data/Lab1/obj/Debug/net6.0/Lab1.csproj.AssemblyReference.cache
+C:/Users/79533/Desktop/Big data/Lab1/obj/Debug/net6.0/Lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/79533/Desktop/Big data/Lab1/obj/Debug/net6.0/Lab1.AssemblyInfoInputs.cache
+C:/Users/79533/Desktop/Big data/Lab1/obj/Debug/net6.0/Lab1.AssemblyInfo.cs
+C:/Users/79533/Desktop/Big data/Lab1/obj/Debug/net6.0/Lab1.csproj.CoreCompileInputs.cache
+C:/Users/79533/Desktop/Big data/Lab1/obj/Debug/net6.0/Lab1.dll
+C:/Users/79533/Desktop/Big data/Lab1/obj/Debug/net6.0/refint/Lab1.dll
+C:/Users/79533/Desktop/Big data/Lab1/obj/Debug/net6.0/Lab1.pdb
+C:/Users/79533/Desktop/Big data/Lab1/obj/Debug/net6.0/Lab1.genruntimeconfig.cache
+C:/Users/79533/Desktop/Big data/Lab1/obj/Debug/net6.0/ref/Lab1.dll
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/bin/Debug/net6.0/Lab1
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/bin/Debug/net6.0/Lab1.deps.json
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/bin/Debug/net6.0/Lab1.runtimeconfig.json
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/bin/Debug/net6.0/Lab1.dll
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/bin/Debug/net6.0/Lab1.pdb
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/obj/Debug/net6.0/Lab1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/obj/Debug/net6.0/Lab1.AssemblyInfoInputs.cache
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/obj/Debug/net6.0/Lab1.AssemblyInfo.cs
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/obj/Debug/net6.0/Lab1.csproj.CoreCompileInputs.cache
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/obj/Debug/net6.0/Lab1.sourcelink.json
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/obj/Debug/net6.0/Lab1.dll
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/obj/Debug/net6.0/refint/Lab1.dll
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/obj/Debug/net6.0/Lab1.pdb
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/obj/Debug/net6.0/Lab1.genruntimeconfig.cache
+/Users/kristinaarutova/Desktop/Kirill2/BigData/Lab1/obj/Debug/net6.0/ref/Lab1.dll
